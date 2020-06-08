@@ -2,7 +2,7 @@
 
 ## Criar usuarios
 
-Metodo:post;
+Metodo:post;\n
 Rota:'/user';
 
 ## Obter usuario(s)
