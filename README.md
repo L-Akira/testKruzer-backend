@@ -2,29 +2,29 @@
 
 # Criar usuarios
 
-Metodo:post;\n
-Rota:'/user';
+Metodo:post|
+  Rota:'/user';
 
 # Obter usuario(s)
 
-Metodo:get;  Rota:'/user';
+Metodo:get|  Rota:'/user';
 
 # Validar usuario
 
-Metodo:get;
+Metodo:get|
     Rota:'/user/validate/:id';
 
 # Obter usuario por ID
 
-Metodo:get;
+Metodo:get|
      Rota:'/user/:id';
 
 # Atualizar usuario
 
-Metodo:put;
+Metodo:put|
     Rota:'/user/:id';
 
 # Deletar usuario
 
-Metodo:delete;
+Metodo:delete|
    Rota:'/user/:id';
