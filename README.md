@@ -1,31 +1,31 @@
 # testKruzer-backend
 
-#Criar usuarios
+## Criar usuarios
 
 Metodo:post;
 Rota:'/user';
 
-#Obter usuario(s)
+## Obter usuario(s)
 
 Metodo:get;
 Rota:'/user';
 
-#Validar usuario
+## Validar usuario
 
 Metodo:get;
 Rota:'/user/validate/:id';
 
-#Obter usuario por ID
+## Obter usuario por ID
 
 Metodo:get;
 Rota:'/user/:id';
 
-#Atualizar usuario
+## Atualizar usuario
 
 Metodo:put;
 Rota:'/user/:id';
 
-#Deletar usuario
+## Deletar usuario
 
 Metodo:delete;
 Rota:'/user/:id';
